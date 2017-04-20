@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
-  "name": "test",
-  "description" : "test",
+  "name": "noteme",
+  "description": "noteme",
   "version": "1.0",
   "background": {
     "scripts": ["js/index.js"],

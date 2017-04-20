@@ -1,11 +1,34 @@
 <!doctype html>
 <html>
   <head>
-    <title>Test</title>
+    <title>NoteMe</title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="js/index.js"></script>
   </head>
   <body>
-    <h1 id="txt">Text to be changed...</h1>
-    <button id="btn">Test</button>
+    <div class="container">
+    <div>
+      <center>
+        <h4>NoteMe</h4>
+      </center>
+    </div>
+    <div class="input-group-wrapper">
+      <select class="form-control" id="keyword">
+        <option value="leatcode">Leetcode</option>
+        <option value="tutorial">Tutorial</option>
+      </select>
+
+      <input class="form-control" id="urlInput" placeholder="URL"></input>
+      <textarea class="form-control" id="codesInput"></textarea>
+      <pre class="form-control hidden" id="pre"><code id="code"></code></pre>
+      <input class="form-control" id="commentsInput" placeholder="Enter your comments"></input>
+      <input class="form-control" id="keywordInput" placeholder="Enter your key words"></input>
+      <center>
+        <button class="btn" id="submit" name="submit">Send</button>
+      </center>
+    </div>
   </body>
 </html>

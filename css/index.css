@@ -1,0 +1,38 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
+  min-width: 300px;
+}
+
+.btn:focus{
+  outline: 0 !important;
+}
+
+.btn {
+  color: #f4b942;
+  background-color: #F89406;
+  border: none;
+}
+
+.btn:hover,
+.btn:focus,
+.btn:active,
+.btn.active {
+  color: #ff0066;
+  background-color: #FA8900;
+  border: none;
+}
+
+.input-group-wrapper {
+  margin: auto;
+  width: 100%;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
